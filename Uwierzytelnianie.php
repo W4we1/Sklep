@@ -1,14 +1,14 @@
 <?php
 include('Połączenie.php');
-$username = $_POST['user'];
+$login = $_POST['user'];
 $password = $_POST['pass'];
 // przerwa
-$username = stripcslashes($username);
+$login = stripcslashes($login);
 $password = stripcslashes($password);
-$username = mysqli_real_escape_string($con, $username);
+$login = mysqli_real_escape_string($con, $login);
 $password = mysqli_real_escape_string($con, $password);
 // przerwa
-$sql = "select *from login where username = '$username' and password = '$password'";
+$sql = "select *from zsp_shop where login = '$login' and password = '$password'";
 $result = mysqli_query($con, $sql);
 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 $count = mysqli_num_rows($result);
