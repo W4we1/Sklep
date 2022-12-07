@@ -22,5 +22,4 @@ SELECT orders.user_id, offers.name, offers.price FROM orders JOIN offers ON orde
 
 // finalizacja zakupu
 
-
-
+INSERT INTO orders (user_id, offer_id) VALUES ("1", "6");
