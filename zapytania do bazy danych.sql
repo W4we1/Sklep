@@ -12,4 +12,6 @@ SELECT offers.name FROM offers WHERE offers.id="1";
 SELECT offers.description FROM offers WHERE offers.id="1";
 SELECT offers.price FROM offers WHERE offers.id="1";
 
+//
+
 
