@@ -1,12 +1,12 @@
 body{
-    background: #eee;
+    background: linear-gradient(-60.76deg, rgb(150, 121, 255) 0%, rgb(212, 153, 234) 57.96%, rgb(238, 164, 179) 100%);
 }
 #frm{
     border: solid blue 1px;
     width: 25%;
     border-radius: 2px;
     margin: 120px auto;
-    background: white;
+    background-image: linear-gradient(rgb(254, 102, 125), rgb(255, 163, 117));
     padding: 50px;
 }
 #btn{
